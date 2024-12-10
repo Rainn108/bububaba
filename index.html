@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="robots" content="index, follow" />
+
+      <meta name="description" content="OJI OFFICIAL adalah digital marketplace yang menyediakan layanan seperti suntik sosial media,panel bot whatsapp,nokos,dll," />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OJI OFFICIAL" />
+    <meta property="og:description" content="OJI OFFICIAL adalah digital marketplace yang menyediakan layanan seperti suntik sosial media,panel bot whatsapp,nokos,dll," />
+    <meta property="og:url" content="https://shope.ojiofficial.my.id/" />
+    <meta property="og:site_name" content="OJI OFFICIAL" />
+    <meta property="og:image" content="https://shope.ojiofficial.my.id/assets/images/logo/1718259672720.png" />
+    <meta property="og:image:secure_url" content="https://shope.ojiofficial.my.id/assets/images/logo/1718259672720.png" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="OJI OFFICIAL" />
+    <meta name="twitter:description" content="OJI OFFICIAL adalah digital marketplace yang menyediakan layanan seperti suntik sosial media,panel bot whatsapp,nokos,dll," />
+    <meta name="twitter:image" content="https://shope.ojiofficial.my.id/assets/images/logo/1718259672720.png" />
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', '');
+  </script>
+
+    
+  <!-- Facebook Pixel Code -->
+    <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '');
+    fbq('track', 'PageView');
+  </script>
+  <!-- End Facebook Pixel Code -->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://shope.ojiofficial.my.id/assets/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="https://shope.ojiofficial.my.id/assets/css/app.css">
+  <link rel="stylesheet" type="text/css" href="https://shope.ojiofficial.my.id/assets/css/app-responsive.css">
+  <link rel="stylesheet" type="text/css" href="https://shope.ojiofficial.my.id/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://shope.ojiofficial.my.id/assets/css/style-responsive.css">
+  <link rel="stylesheet" href="https://shope.ojiofficial.my.id/assets/starrr/dist/starrr.css">
+
+  <link rel="shortcut icon" href="https://shope.ojiofficial.my.id/assets/images/logo/1718259672720.png" type="image/x-icon" />
+
+  <script src="https://kit.fontawesome.com/2baad1d54e.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://shope.ojiofficial.my.id/assets/icofont/icofont.min.css">
+
+  
+  <style>
+    .button-bottom-modal-cart-global button {
+      border: 1px solid #00F6FF;
+      color: #00F6FF;
+    }
+
+    .button-bottom-modal-cart-global a button {
+      background-color: #00F6FF    }
+
+    .button-bottom-modal-cart-global a button:hover {
+      border: 1px solid #454545;
+      background-color: #454545;
+    }
+
+    .button-bottom-modal-cart-global button:hover {
+      border: 1px solid #00F6FF;
+      color: #ffffff;
+      background-color: #00F6FF;
+    }
+  </style>
+
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <link rel="stylesheet" href="https://shope.ojiofficial.my.id/assets/select2-4.0.6-rc.1/dist/css/select2.min.css">
+
+  <link rel="stylesheet" href="https://shope.ojiofficial.my.id/assets/css/lightbox.css">
+
+  <title>OJI OFFICIAL</title>
+
+</head>
+
+<body>
+
+  
+  <!-- model cart -->
+  <div class="modal fade" id="modalCart" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Keranjang Belanja</h5>
+          <button onclick="location.reload(true)" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" id="modalCartBodyShow">
+                      <div class="alert alert-warning">Keranjang masih kosong, yuk belanja dulu.</div>
+            <div class="button-bottom-modal-cart-global">
+              <button type="button" class="shopping-again" data-dismiss="modal">BELANJA DULU</button>
+            </div>
+                  </div>
+      </div>
+    </div>
+  </div><nav class="navbar-top fixed-top shadow-sm" style="background-color: white;">
+    <div class="main">
+        <a href="https://shope.ojiofficial.my.id/">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1718283910729.png" alt="logo" class="logo">
+        </a>
+        <div class="menu">
+            <a href="https://shope.ojiofficial.my.id/">Home</a>
+                            <a href="https://shope.ojiofficial.my.id/tentangkami">Tentang Kami</a>
+                    </div>
+        <a href="#" data-toggle="modal" data-target="#modalCart" class="cart-link">
+                            <img src="https://shope.ojiofficial.my.id/assets/images/icon/shopping-bag.svg" alt="icon bag" class="shopping-bag">
+                    </a>
+    </div>
+    <div class="main-mobile">
+        <a href="https://shope.ojiofficial.my.id/">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1718283910729.png" alt="logo" class="logo">
+        </a>
+        <div>
+            <a href="#" data-toggle="modal" data-target="#modalCart" class="cart-link">
+                                    <img src="https://shope.ojiofficial.my.id/assets/images/icon/shopping-bag.svg" alt="icon bag" class="shopping-bag">
+                            </a>
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+</nav>
+<div class="help-heigh-navbar-top"></div>
+<!-- <nav class="navbar-top" style="background-color: ">
+    <div class="main">
+        <a href="https://shope.ojiofficial.my.id/">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1603194662693.png" alt="logo" class="logo">
+        </a>
+        <form action="https://shope.ojiofficial.my.id/search" method="get">
+            <input type="text" placeholder="Cari produk" name="q" autocomplete="off">
+            <i class="icofont-search"></i>
+        </form>
+        <a href="#" data-toggle="modal" data-target="#modalCart" class="cart-link">
+                            <i class="fa fa-shopping-cart cart-icon"></i>
+                    </a>
+    </div>
+    <div class="main-mobile">
+        <i class="fa fa-bars"></i>
+        <a href="https://shope.ojiofficial.my.id/">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1603194662693.png" alt="logo" class="logo">
+        </a>
+        <a href="#" data-toggle="modal" data-target="#modalCart" class="cart-link">
+                            <i class="fa fa-shopping-cart cart-icon"></i>
+                    </a>
+    </div>
+</nav> -->
+<div class="overlay-menu"></div>
+<div class="side-bar-menu-mobile">
+    <div class="menu">
+        <div class="img" style="background-color: ">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1603194662693.png" alt="logo" class="logo">
+        </div>
+        <a href="https://shope.ojiofficial.my.id/">Home</a>
+                    <a href="https://shope.ojiofficial.my.id/tentangkami">Tentang Kami</a>
+            </div>
+</div>
+
+    <button name="button-chat" style="background-color: #2FBD5C" class="btn-chat-help-pojok-kanan-bawah"><i class="fab fa-whatsapp"></i></button>
+    <div class="card box-chat-help-wa shadow">
+        <div class="card-header top" style="background-color: #2FBD5C">
+            <h4 class="lead mb-0 pt-0 pb-0 mt-0">Form Bantuan</h4>
+        </div>
+        <div class="card-body px-2 py-2">
+            <input type="text" placeholder="Nama" id="formHelpInputNamePojokKananBawah" autocomplete="off" class="form-control">
+            <textarea id="formHelpTextareaMessagePojokKananBawah" rows="4" class="form-control mt-2" placeholder="Tulis pesan.."></textarea>
+            <button type="submit" id="btnFormHelpPojokKananBawah" style="background-color: #2FBD5C; font-size: 14px; color: white" class="btn mt-2 btn-block">KIRIM</button>
+        </div>
+    </div>
+<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-pause="false" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <img alt="banner" src="https://shope.ojiofficial.my.id/assets/images/banner/1718283561938.jpg">
+        </div><div class="carousel-item ">
+          <img alt="banner" src="https://shope.ojiofficial.my.id/assets/images/banner/1718283646672.jpg">
+        </div>  </div>
+</div>
+
+<div class="search-inside-banner">
+  <form action="https://shope.ojiofficial.my.id/search" method="get">
+    <input class="shadow-sm" type="text" placeholder="Cari produk" name="q" autocomplete="off">
+    <i class="icofont-search"></i>
+  </form>
+</div><style>
+  div.category-menu div.main-category div.item:hover {
+    background-color: #00F6FF;
+  }
+
+  div.category-menu div.main-category div.item-active {
+    background-color: #00F6FF;
+  }
+
+  #modalBannerPopup .fa-times {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    cursor: pointer;
+  }
+</style>
+
+<div class="category-menu">
+  <div class="main-category">
+    <div class="item item-active item-category-menu-0" onclick="changeCategoryProductsActive('0')">
+      <p class="mb-0">All</p>
+    </div>
+          <div class="item item-category-menu-21" onclick="changeCategoryProductsActive('21')">
+        <p class="mb-0">Panel Private</p>
+      </div>
+          <div class="item item-category-menu-22" onclick="changeCategoryProductsActive('22')">
+        <p class="mb-0">Panel Biasa</p>
+      </div>
+          <div class="item item-category-menu-23" onclick="changeCategoryProductsActive('23')">
+        <p class="mb-0">Lainya</p>
+      </div>
+      </div>
+</div>
+
+<div class="product-wrapper best-product">
+  <div class="main-product">
+    <div id="bodyForShowProductHome">
+              <a href="https://shope.ojiofficial.my.id/p/admin-panel-biasa1718453984">
+          <div class="item-product">
+                          <img alt="Admin Panel Biasa" src="https://shope.ojiofficial.my.id/assets/images/product/1718453982732.png" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Admin Panel Biasa</p>
+                <p class="newPrice">Rp. 20.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/admin-panel-private1718453612">
+          <div class="item-product">
+                          <img alt="Admin Panel Private" src="https://shope.ojiofficial.my.id/assets/images/product/1718453611842.png" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Admin Panel Private</p>
+                <p class="newPrice">Rp. 30.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/script-nezuko1718268275">
+          <div class="item-product">
+                          <img alt="Script Nezuko" src="https://shope.ojiofficial.my.id/assets/images/product/1718268275427.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Script Nezuko</p>
+                <p class="newPrice">Rp. 15.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/jadi-bot1718268191">
+          <div class="item-product">
+                          <img alt="Jadi Bot" src="https://shope.ojiofficial.my.id/assets/images/product/1718268191063.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Jadi Bot</p>
+                <p class="newPrice">Rp. 25.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/jasa-pembuatan-website-store1718266797">
+          <div class="item-product">
+                          <img alt="Jasa Pembuatan Website Store" src="https://shope.ojiofficial.my.id/assets/images/product/1718266796454.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Jasa Pembuatan Website Store</p>
+                <p class="newPrice">Rp. 180.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/nomor-kosong-whatsapp1718266659">
+          <div class="item-product">
+                          <img alt="Nomor Kosong WhatsApp" src="https://shope.ojiofficial.my.id/assets/images/product/1718266658787.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Nomor Kosong WhatsApp</p>
+                <p class="newPrice">Rp. 14.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/panel-biasa-unli1718265960">
+          <div class="item-product">
+                          <img alt="Panel Biasa Unli" src="https://shope.ojiofficial.my.id/assets/images/product/1718265959323.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Panel Biasa Unli</p>
+                <p class="newPrice">Rp. 11.000</p>
+                            <div class="stars-rating">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/panel-biasa-9gb1718265911">
+          <div class="item-product">
+                          <img alt="Panel Biasa 9GB" src="https://shope.ojiofficial.my.id/assets/images/product/1718265910265.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Panel Biasa 9GB</p>
+                <p class="newPrice">Rp. 10.000</p>
+                            <div class="stars-rating">
+                                <i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+              <a href="https://shope.ojiofficial.my.id/p/panel-biasa-7gb-8gb1718265862">
+          <div class="item-product">
+                          <img alt="Panel Biasa 7GB & 8GB" src="https://shope.ojiofficial.my.id/assets/images/product/1718265862085.jpg" class="card-img-top">
+                        <div class="card-body">
+                              <p class="card-text line-3 mb-0">Panel Biasa 7GB & 8GB</p>
+                <p class="newPrice">Rp. 8.000</p>
+                            <div class="stars-rating">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>              </div>
+            </div>
+          </div>
+        </a>
+          </div>
+    <div class="clearfix"></div>
+  </div>
+  <img src="https://shope.ojiofficial.my.id/assets/images/icon/loading-v1.gif" alt="loading.." class="loading-animation-load-more">
+    <button style="border: 2px solid #00F6FF; color: #00F6FF" class="more" id="btnClickLoadMoreProductHome">LIHAT SEMUA</button>
+</div>
+
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-1">
+      <div class="main">
+                          <img alt="Panel Biasa Unli" src="https://shope.ojiofficial.my.id/assets/images/product/1718265959323.jpg">
+                <div class="text">
+          <p><span class="font-bold">Viery Qabatia</span> membeli
+          <p class="font-bold product_name">Panel Biasa Unli</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-2">
+      <div class="main">
+                          <img alt="Script Nezuko" src="https://shope.ojiofficial.my.id/assets/images/product/1718268275427.jpg">
+                <div class="text">
+          <p><span class="font-bold">Aswin </span> membeli
+          <p class="font-bold product_name">Script Nezuko</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-3">
+      <div class="main">
+                          <img alt="Panel Biasa 7GB & 8GB" src="https://shope.ojiofficial.my.id/assets/images/product/1718265862085.jpg">
+                <div class="text">
+          <p><span class="font-bold">Mhess</span> membeli
+          <p class="font-bold product_name">Panel Biasa 7GB & 8GB</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-4">
+      <div class="main">
+                          <img alt="Panel Biasa Unli" src="https://shope.ojiofficial.my.id/assets/images/product/1718265959323.jpg">
+                <div class="text">
+          <p><span class="font-bold">GILANG</span> membeli
+          <p class="font-bold product_name">Panel Biasa Unli</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-5">
+      <div class="main">
+                          <img alt="Jadi Bot" src="https://shope.ojiofficial.my.id/assets/images/product/1718268191063.jpg">
+                <div class="text">
+          <p><span class="font-bold">viki</span> membeli
+          <p class="font-bold product_name">Jadi Bot</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-6">
+      <div class="main">
+                          <img alt="Jadi Bot" src="https://shope.ojiofficial.my.id/assets/images/product/1718268191063.jpg">
+                <div class="text">
+          <p><span class="font-bold">frin</span> membeli
+          <p class="font-bold product_name">Jadi Bot</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-7">
+      <div class="main">
+                          <img alt="Script Nezuko" src="https://shope.ojiofficial.my.id/assets/images/product/1718268275427.jpg">
+                <div class="text">
+          <p><span class="font-bold">Y</span> membeli
+          <p class="font-bold product_name">Script Nezuko</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+      <input type="hidden" id="numberOfInvoiceTotalHomePage" value="8">
+    <div class="social-proof" id="socialProofId-8">
+      <div class="main">
+                          <img alt="Panel Private Unlimited" src="https://shope.ojiofficial.my.id/assets/images/product/1718264974307.jpg">
+                <div class="text">
+          <p><span class="font-bold">oji</span> membeli
+          <p class="font-bold product_name">Panel Private Unlimited</p>
+          </p>
+          <span class="verified"><img src="https://shope.ojiofficial.my.id/assets/images/icon/verified.png" alt="verified icon"> Verified by <span class="app_name">OJI OFFICIAL</span></span>
+        </div>
+      </div>
+    </div>
+  <footer>
+    <div class="information">
+        <div class="main">
+            <img src="https://shope.ojiofficial.my.id/assets/images/logo/1718283910729.png" alt="logo" class="logo-footer" />
+            <p class="description-store">OJI OFFICIAL adalah digital marketplace yang menyediakan layanan seperti suntik sosial media,panel bot whatsapp,nokos,dll,</p>
+            <div class="payment_logo" style="text-align: center;">
+                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/bca.png" alt="payment" class="logo_payment">
+                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/mandiri.png" alt="payment" class="logo_payment">
+                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/bri.png" alt="payment" class="logo_payment">
+                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/bni.png" alt="payment" class="logo_payment">
+                                                                                                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/ovo.png" alt="payment" class="logo_payment">
+                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/dana.png" alt="payment" class="logo_payment">
+                                                    <img src="https://shope.ojiofficial.my.id/assets/images/payment/gopay.png" alt="payment" class="logo_payment">
+                            </div>
+            <div class="social-media">
+                                    <a href="https://instagram.com/ojiwzrd" target="_blank"><i class="fa fa-at"></i>
+                    </a>
+                                    <a href="https://t.me/ownerbeluxe" target="_blank"><i class="fa fa-paper-plane"></i>
+                    </a>
+                                    <a href="https://wa.me/6282353119669" target="_blank"><i class="fa fa-phone-volume"></i>
+                    </a>
+                            </div>
+        </div>
+    </div>
+    <div class="copyright" style="background-color: ">
+        <p class="mb-0">Copyright &copy; <span id="footer-cr-years"></span> OJI OFFICIAL</p>
+    </div>
+</footer><script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://shope.ojiofficial.my.id/assets/starrr/dist/starrr.js"></script>
+<script src="https://shope.ojiofficial.my.id/assets/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
+<script src="https://shope.ojiofficial.my.id/assets/js/lightbox.js"></script>
+<script>
+    const modalDelayPopup = "";
+    if (modalDelayPopup) {
+        setTimeout(() => {
+            $("#modalBannerPopup").modal("show");
+        }, modalDelayPopup * 1000);
+    }
+    lightbox.option({
+        'disableScrolling': true
+    })
+    $('.starrr').starrr()
+    $(".starrr").on('starrr:change', function(e, value) {
+        $("input.starrr-rating-star-count").val(value);
+    })
+    const years = new Date().getFullYear();
+    $("#footer-cr-years").text(years);
+
+    $(".btn_order_now_checkout_page").on("click", function() {
+        const pay = $("#paymentSelectCheckoutPage").val();
+        $('#msgPaymentFirstCheckoutPage').hide();
+        if (pay == "") {
+            $('#msgPaymentFirstCheckoutPage').show();
+        }
+    })
+
+    $(".rating .top-rating").on("click", function() {
+        $(".rating .main-rating").slideToggle();
+        $(".rating .top-rating i").toggleClass("arrow-bottom-rating-rotate");
+        $(".rating .top-rating i").css("transition", "0.5s");
+    })
+
+    $("#btnFormHelpPojokKananBawah").on("click", function() {
+        const name = $("#formHelpInputNamePojokKananBawah").val();
+        const message = $("#formHelpTextareaMessagePojokKananBawah").val();
+        const wa = "6282353119669";
+        const msgOpen = "Halo kak,Ada Yang Bisa Oji Bantu?";
+        if (name != "" && message != "") {
+            $("#formHelpInputNamePojokKananBawah").val("");
+            $("#formHelpTextareaMessagePojokKananBawah").val("");
+            window.open(`https://wa.me/${wa}?text=${msgOpen}, saya ${name} ingin bertanya %0A ${message}`);
+        }
+    })
+
+    $("button.btn-chat-help-pojok-kanan-bawah").on('click', function() {
+        $("div.box-chat-help-wa").slideToggle('fast');
+        // $("button.btn-chat-help-pojok-kanan-bawah i").removeClass("fa-whatsapp")
+        // $("button.btn-chat-help-pojok-kanan-bawah i").removeClass("fab")
+        // $("button.btn-chat-help-pojok-kanan-bawah i").addClass("fa")
+        // $("button.btn-chat-help-pojok-kanan-bawah i").addClass("fa-times")
+        // $("button.btn-chat-help-pojok-kanan-bawah i").css("font-size", "35px")
+    })
+
+    let numberOfSocialProof = 1;
+    let numberOfInvoiceTotal = parseInt($("#numberOfInvoiceTotalHomePage").val()) * 1000;
+    let pauseOfSocialProof = parseInt('10') * 1000;
+    let timeOfSocialProof = parseInt('5') * 1000;
+
+    function showHideSocialProof() {
+        $(`#socialProofId-${numberOfSocialProof}`).css("bottom", "20px");
+        setTimeout(function() {
+            $(`#socialProofId-${numberOfSocialProof}`).css("bottom", "-100px");
+            numberOfSocialProof++;
+        }, pauseOfSocialProof);
+        if (numberOfSocialProof <= numberOfInvoiceTotal) {
+            setTimeout(showHideSocialProof, pauseOfSocialProof * 2);
+        } else {
+            $(`div.social-proof`).css("bottom", "-100px");
+            numberOfSocialProof = 0;
+            setTimeout(showHideSocialProof, pauseOfSocialProof * 2);
+        }
+    }
+    setTimeout(showHideSocialProof, timeOfSocialProof);
+
+    // detail slick img
+    $('.img-detail-product-slick').slick();
+    $("div.wrapper div.top div.main-top div.img button.slick-prev").html(`<i class="fa fa-angle-left"></i>`);
+    $("div.wrapper div.top div.main-top div.img button.slick-next").html(`<i class="fa fa-angle-right"></i>`);
+
+    let categoryProductsActive;
+    let clickCategoryActive = false;
+    let startLoadProductHome = 9;
+
+    const skeletonLoadingCategory = `
+    <div class="skeleton-item-product">
+        <div class="img"></div>
+    </div>
+    <div class="skeleton-item-product">
+        <div class="img"></div>
+    </div>
+    <div class="skeleton-item-product">
+        <div class="img"></div>
+    </div>
+    `;
+
+    function changeCategoryProductsActive(id) {
+        if (!clickCategoryActive) {
+            clickCategoryActive = true;
+            $("div.category-menu div.main-category div.item").removeClass("item-active");
+            $(`.item-category-menu-${id}`).addClass("item-active");
+            categoryProductsActive = id;
+            $("#bodyForShowProductHome").html(skeletonLoadingCategory);
+            $.ajax({
+                url: `https://shope.ojiofficial.my.id/products/get_all_product_home_by_category/${id}`,
+                method: "get",
+                success: function(response) {
+                    $("#btnClickLoadMoreProductHome").show();
+                    clickCategoryActive = false;
+                    startLoadProductHome = 6;
+                    if (response == "") {
+                        alert("Terjadi kesalahan, refresh browsernya.");
+                    } else {
+                        $("#bodyForShowProductHome").html(response);
+                    }
+                }
+            })
+        }
+    }
+
+    // load more product
+    $("#btnClickLoadMoreProductHome").on("click", function() {
+        $("img.loading-animation-load-more").show();
+        $(this).hide();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/products/get_more_product_home?start=" + startLoadProductHome + "&category=" + categoryProductsActive,
+            method: "get",
+            success: function(response) {
+                startLoadProductHome += 6;
+                if (response == "") {
+                    $("#btnClickLoadMoreProductHome").hide();
+                    $("img.loading-animation-load-more").hide();
+                } else {
+                    $("#bodyForShowProductHome").append(response);
+                    $("img.loading-animation-load-more").hide();
+                    $("#btnClickLoadMoreProductHome").show();
+                }
+            }
+        })
+    })
+
+    let startLoadProduct = 8;
+    $("#btnClickLoadMoreProduct").on("click", function() {
+        $("img.loading-animation-load-more").show();
+        $(this).hide();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/products/get_more_product?start=" + startLoadProduct,
+            method: "get",
+            success: function(response) {
+                startLoadProduct += 12;
+                if (response == "") {
+                    $("#btnClickLoadMoreProduct").hide();
+                    $("img.loading-animation-load-more").hide();
+                } else {
+                    $("#bodyForShowProduct").append(response);
+                    $("img.loading-animation-load-more").hide();
+                    $("#btnClickLoadMoreProduct").show();
+                }
+            }
+        })
+    })
+
+    let startLoadBestProduct = 12;
+    $("#btnClickLoadMoreBestProduct").on("click", function() {
+        $("img.loading-animation-load-more").show();
+        $(this).hide();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/products/get_more_best_product?start=" + startLoadBestProduct,
+            method: "get",
+            success: function(response) {
+                startLoadBestProduct += 12;
+                if (response == "") {
+                    $("#btnClickLoadMoreBestProduct").hide();
+                    $("img.loading-animation-load-more").hide();
+                } else {
+                    $("#bodyForShowProduct").append(response);
+                    $("img.loading-animation-load-more").hide();
+                    $("#btnClickLoadMoreBestProduct").show();
+                }
+            }
+        })
+    })
+
+    let startLoadProductCategory = 12;
+    $("#btnClickLoadMoreProductCategory").on("click", function() {
+        $("img.loading-animation-load-more").show();
+        $(this).hide();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/products/get_more_product_category?start=" + startLoadProductCategory + "&idCat=&sort=",
+            method: "get",
+            success: function(response) {
+                startLoadProductCategory += 12;
+                console.log(response);
+                if (response == "") {
+                    $("#btnClickLoadMoreProductCategory").hide();
+                    $("img.loading-animation-load-more").hide();
+                } else {
+                    $("#bodyForShowProductCategory").append(response);
+                    $("img.loading-animation-load-more").hide();
+                    $("#btnClickLoadMoreProductCategory").show();
+                }
+            }
+        })
+    })
+
+    // share product
+    // $(document).click(function() {
+    //     $("div.wrapper div.share-dd").slideUp('fast');
+    // });
+    $("div.wrapper button.share").on('click', function(event) {
+        $("div.wrapper div.share-dd").slideToggle('fast');
+        // event.stopPropagation();
+    })
+
+    // select variant
+    let variantColorProduct = "";
+    let variantSizeProduct = "";
+    $("button.item-option-select-variant-product-color").on('click', function() {
+        $(".item-option-select-variant-product-color").css("background-color", "white");
+        $(".item-option-select-variant-product-color").css("color", "black");
+        $(".item-option-select-variant-product-color").css("border", "1px solid ");
+        $(this).css("background-color", "");
+        $(this).css("color", "white");
+        variantColorProduct = $(this).val();
+    })
+    $("button.item-option-select-variant-product-size").on('click', function() {
+        $(".item-option-select-variant-product-size").css("background-color", "white");
+        $(".item-option-select-variant-product-size").css("color", "black");
+        $(".item-option-select-variant-product-size").css("border", "1px solid ");
+        $(this).css("background-color", "");
+        $(this).css("color", "white");
+        variantSizeProduct = $(this).val();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/products/change_price_by_variant",
+            type: "post",
+            dataType: "json",
+            async: true,
+            data: {
+                id: '',
+                variant: variantSizeProduct
+            },
+            success: function(data) {
+                $("div.wrapper div.top div.main-top div.ket h4.price").text(data.price);
+                $("div.wrapper div.top div.main-top div.ket p.oldPrice .linet").text(data.oldPrice);
+            }
+        })
+    })
+
+    // function buy
+    function orderNow() {
+        const productId = '';
+        const slug = '';
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/cart/add_to_cart",
+            type: "post",
+            data: {
+                id: productId,
+                slug: slug,
+                variant: parseInt(globalVariantType)
+            },
+            success: function(data) {
+                $("#modalCartBodyShow").html(data);
+                $('#modalCart').modal('show');
+            }
+        })
+    }
+
+    // plus minus qty cart
+    function minusProductCart(id) {
+        let inputJml;
+        inputJml = parseInt($(`input#qtyProductCart-${id}`).val());
+        inputJml = inputJml - 1;
+        if (inputJml >= 1) {
+            $(`input#qtyProductCart-${id}`).val("..");
+            $.ajax({
+                url: "https://shope.ojiofficial.my.id/cart/edit_qty_cart?type=minus",
+                type: "post",
+                data: {
+                    rowid: id,
+                },
+                success: function(data) {
+                    $(`#modalCartPriceProduct-${id}`).text(`Rp. ${number_format(data).split(",").join(".")}`);
+                    $(`input#qtyProductCart-${id}`).val(inputJml);
+                }
+            })
+        }
+    }
+
+    function plusProductCart(id) {
+        let inputJml;
+        inputJml = parseInt($(`input#qtyProductCart-${id}`).val());
+        inputJml = inputJml + 1;
+        $(`input#qtyProductCart-${id}`).val("..");
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/cart/edit_qty_cart?type=plus",
+            type: "post",
+            data: {
+                rowid: id,
+            },
+            success: function(data) {
+                $(`#modalCartPriceProduct-${id}`).text(`Rp. ${number_format(data).split(",").join(".")}`);
+                $(`input#qtyProductCart-${id}`).val(inputJml);
+            }
+        })
+    }
+
+    function deleteCartByRowid(id) {
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/cart/delete/" + id,
+            type: "get",
+            success: function(data) {
+                $(`#modalCartBodyListItem-${id}`).slideUp('fast');
+            }
+        })
+    }
+
+    function number_format(number, decimals, decPoint, thousandsSep) {
+        number = (number + '').replace(/[^0-9+\-Ee.]/g, '')
+        var n = !isFinite(+number) ? 0 : +number
+        var prec = !isFinite(+decimals) ? 0 : Math.abs(decimals)
+        var sep = (typeof thousandsSep === 'undefined') ? ',' : thousandsSep
+        var dec = (typeof decPoint === 'undefined') ? '.' : decPoint
+        var s = ''
+
+        var toFixedFix = function(n, prec) {
+            var k = Math.pow(10, prec)
+            return '' + (Math.round(n * k) / k)
+                .toFixed(prec)
+        }
+
+        // @todo: for IE parseFloat(0.55).toFixed(0) = 0;
+        s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.')
+        if (s[0].length > 3) {
+            s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep)
+        }
+        if ((s[1] || '').length < prec) {
+            s[1] = s[1] || ''
+            s[1] += new Array(prec - s[1].length + 1).join('0')
+        }
+
+        return s.join(dec)
+    }
+
+    // select2 checkout
+    $("#districtCheckoutPage").select2({
+        placeholder: 'Pilih Kabupaten/Kota',
+        language: 'id'
+    })
+
+    $("#subdistrictCheckoutPage").select2({
+        placeholder: 'Pilih kabupaten/kota dulu',
+        language: 'id'
+    })
+
+    $("#districtCheckoutPage").on('change', function() {
+        $("#subdistrictCheckoutPage").html(`<option</option>`)
+        $("#subdistrictCheckoutPage").select2({
+            placeholder: 'Loading..',
+            language: 'id'
+        });
+        $("#courierCheckoutPage").html(`
+                <option>Loading..</option>
+            `);
+        $("#ongkirCheckoutPage").text("Rp. 0");
+        const id = $(this).val();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/payment/getSubdistrict",
+            type: "post",
+            dataType: "json",
+            async: true,
+            data: {
+                id: id
+            },
+            success: function(data) {
+                $("#subdistrictCheckoutPage").select2({
+                    placeholder: 'Pilih Kecamatan',
+                    language: 'id'
+                })
+                $("#subdistrictCheckoutPage").html(data);
+                $("#courierCheckoutPage").html(`
+                        <option>Pilih kecamatan dulu</option>
+                    `);
+            }
+        });
+    })
+
+    $("#subdistrictCheckoutPage").on('change', function() {
+        $("#courierCheckoutPage").html(`
+                <option>Loading..</option>
+            `);
+
+        $("#ongkirCheckoutPage").text("Rp. 0");
+        const id = $(this).val();
+        $.ajax({
+            url: "https://shope.ojiofficial.my.id/payment/getCourier",
+            type: "post",
+            dataType: "json",
+            async: true,
+            data: {
+                id: id
+            },
+            success: function(data) {
+                $("#courierCheckoutPage").html(`
+                        <option>Pilih Pengiriman</option>
+                    `);
+                $("#courierCheckoutPage").html(data);
+            }
+        });
+    })
+
+    $("#courierCheckoutPage").on("change", function() {
+        let id = $(this).val();
+        id = id.split('-');
+        id = id[0];
+        if (id === "") {
+            id = 0;
+        }
+        const minFee = '';
+        const maxFee = '';
+        if (parseInt(id) >= parseInt(minFee) && parseInt(id) <= parseInt(maxFee)) {
+            $(".logo-payment-checkout-13").show();
+        }
+        $("#ongkirValueOrder").val(id);
+        $("#ongkirCheckoutPage").text("Rp. " + number_format(id).split(",").join("."));
+        const price = "0";
+        const potongan = $("#potonganCouponCheckoutPageValue").val();
+        const total = parseInt(price) + parseInt(id) + parseInt($("#uniqueCodeValueOrder").val()) - parseInt(potongan);
+        $("#totalCheckoutPage").text("Rp. " + number_format(total).split(",").join("."));
+    })
+
+    $("#btnForApplyCouponCheckoutPage").on("click", function() {
+        const coupon = $("#inputCouponCheckoutPage").val();
+        $("#msgDangerCouponWrongCheckoutPage").text("");
+        if (coupon != "") {
+            $.ajax({
+                url: "https://shope.ojiofficial.my.id/checkout/checkoutCoupon",
+                type: "post",
+                dataType: "json",
+                async: true,
+                data: {
+                    coupon: coupon
+                },
+                success: function(data) {
+                    console.log(data);
+                    if (data.success == true) {
+                        $("#potonganCouponCheckoutPageShow").text("Rp. " + number_format(data.discount).split(",").join("."));
+                        $("#potonganCouponCheckoutPageValue").val(data.discount);
+                        const courier = $("#ongkirValueOrder").val();
+                        const price = "0";
+                        const potongan = $("#potonganCouponCheckoutPageValue").val();
+                        const total = parseInt(price) + parseInt(courier) + parseInt($("#uniqueCodeValueOrder").val()) - parseInt(potongan);
+                        $("#totalCheckoutPage").text("Rp. " + number_format(total).split(",").join("."));
+                    } else {
+                        $("#msgDangerCouponWrongCheckoutPage").text(data.msg);
+                    }
+                }
+            });
+        }
+    })
+
+    // select payment
+    function selectPaymentCheckout(id) {
+        $('#msgPaymentFirstCheckoutPage').hide();
+        $("#paymentSelectCheckoutPage").val("true");
+        $(`#paymentLogoSelectCheckoutPageValue`).val(id);
+        $(".logo-payment-checkout-page").css("border", "2px solid #ddd");
+        $(".logo-payment-checkout-page").css("box-shadow", "none");
+        $(`.logo-payment-checkout-${id}`).css("border", "2px solid dodgerblue");
+        $(`.logo-payment-checkout-${id}`).css("box-shadow", "1px 3px 8px rgba(0, 0, 0, 0.2)");
+
+        if (id == "13") {
+            $(".list-for-fee-cod-hide").show();
+            $(".list-for-uniq-code-show-first").hide();
+            const totalharga = '0';
+            const ongkir = $("#ongkirValueOrder").val();
+            const feeCod = '';
+            let totalall = (parseInt(totalharga) + parseInt(ongkir)) * parseInt(feeCod) / 100;
+            $(".valueOfUniqCodeOrFeeCODCheckoutPage").text("Rp. " + number_format(totalall).split(",").join("."));
+            const potongan = $("#potonganCouponCheckoutPageValue").val();
+            const total = parseInt(totalharga) + parseInt(ongkir) + parseInt(totalall) - parseInt(potongan);
+            $("#totalCheckoutPage").text("Rp. " + number_format(total).split(",").join("."));
+        } else {
+            $(".list-for-fee-cod-hide").hide();
+            $(".list-for-uniq-code-show-first").show();
+            const uniqCode = $("#uniqueCodeValueOrder").val();
+            const courier = $("#ongkirValueOrder").val();
+            const price = "0";
+            const potongan = $("#potonganCouponCheckoutPageValue").val();
+            const total = parseInt(price) + parseInt(courier) + parseInt(uniqCode) - parseInt(potongan);
+            $("#totalCheckoutPage").text("Rp. " + number_format(total).split(",").join("."));
+        }
+    }
+
+    // menu sidebar
+    let globalVariableSideBarClose = true;
+    $("nav.navbar-top div.main-mobile .fa-bars").on("click", function() {
+        if (globalVariableSideBarClose) {
+            globalVariableSideBarClose = false;
+            $(".side-bar-menu-mobile").animate({
+                left: "0"
+            }, 300)
+            $(".overlay-menu").animate({
+                left: "0"
+            }, 200)
+        } else {
+            globalVariableSideBarClose = true;
+            $(".side-bar-menu-mobile").animate({
+                left: "-100%"
+            }, 200)
+            $(".overlay-menu").animate({
+                left: "-100%"
+            }, 300)
+        }
+    })
+    $(".overlay-menu").on("click", function() {
+        globalVariableSideBarClose = true;
+        $(".side-bar-menu-mobile").animate({
+            left: "-100%"
+        }, 200)
+        $(".overlay-menu").animate({
+            left: "-100%"
+        }, 300)
+    })
+</script>
+</body>
+
+</html>

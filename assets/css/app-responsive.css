@@ -1,0 +1,155 @@
+/* navbar */
+@media screen and (max-width: 1150px) {
+  nav.navbar-top div.main {
+    width: 800px;
+  }
+
+  nav.navbar-top div.main-mobile img.logo {
+    height: 28px;
+  }
+
+  nav.navbar-top div.main form input {
+    width: 400px;
+  }
+
+  nav.navbar-top div.main div.menu {
+    width: 500px;
+  }
+
+  nav.navbar-top div.main-mobile img.shopping-bag {
+    width: 28px;
+  }
+
+  div.navbar-bottom div.main {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav.navbar-top div.main {
+    display: none;
+  }
+
+  nav.navbar-top div.main-mobile {
+    display: flex;
+  }
+
+  div.navbar-bottom {
+    display: none;
+  }
+
+  div.navbar-bottom-mobile {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.search-inside-banner form {
+    margin-top: -20px;
+    width: 80%;
+  }
+
+  div.search-inside-banner form input {
+    border-width: 1px;
+    height: 40px;
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+/* footer */
+@media screen and (max-width: 1150px) {
+  footer div.information div.main {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  footer div.information div.main {
+    display: block;
+    width: 100%;
+  }
+
+  footer div.information div.main div.about {
+    display: block;
+    width: 100%;
+  }
+
+  footer div.information div.main hr {
+    display: none;
+  }
+
+  footer div.information div.main div.item {
+    margin-top: 30px;
+  }
+
+  footer div.information div.main img.logo-footer {
+    margin-bottom: 0;
+  }
+
+  footer div.information div.main p.description-store {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #modalCart div.modal-body div.item-cart {
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  #modalCart div.modal-body div.item-cart img.thumb-img {
+    height: 50px;
+    margin-right: 5px;
+    width: 50px;
+  }
+
+  #modalCart div.modal-body div.item-cart h4.product-name {
+    font-size: 13px;
+  }
+
+  #modalCart div.modal-body div.item-cart p.information {
+    font-size: 12px;
+  }
+
+  #modalCart div.modal-body div.item-cart h5.price {
+    font-size: 14px;
+  }
+
+  #modalCart div.modal-body div.item-cart div.option {
+    bottom: 5px;
+  }
+
+  #modalCart div.modal-body div.item-cart div.qty button {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+  }
+
+  #modalCart div.modal-body div.item-cart div.qty input {
+    height: 25px;
+    width: 35px;
+  }
+
+  #modalCart div.modal-body div.item-cart div.qty {
+    right: 25px;
+  }
+
+  #modalCart div.modal-body div.item-cart .fa-trash {
+    right: 5px;
+    font-size: 17px;
+    bottom: 10px;
+  }
+
+  div.box-chat-help-wa {
+    bottom: 100px;
+    display: none;
+    height: auto;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    z-index: 10;
+  }
+}

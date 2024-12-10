@@ -1,0 +1,226 @@
+/* category menu */
+
+@media screen and (max-width: 1050px) {
+  div.category-menu {
+    width: 800px;
+  }
+
+  div.category-menu div.main-category div.item {
+    width: auto;
+  }
+
+  div.category-menu div.main-category div.item p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  div.category-menu {
+    margin-top: 50px;
+    width: 600px;
+  }
+
+  div.category-menu div.main-category div.item img {
+    width: 35px;
+  }
+
+  div.category-menu div.main-category div.item p {
+    font-size: 12px;
+  }
+
+  div.product-wrapper img.banner-package {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.category-menu {
+    height: auto;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  div.category-menu div.main-category {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  div.category-menu div.main-category div.item {
+    width: auto;
+    padding: 5px 13px;
+    margin: 3px;
+  }
+
+  div.category-menu div.main-category div.item p {
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+}
+
+/* promo */
+@media screen and (max-width: 1150px) {
+  div.promo {
+    width: 900px;
+  }
+
+  div.promo div.bottom {
+    justify-content: start;
+    overflow-x: scroll;
+    width: auto;
+  }
+
+  div.promo div.bottom div.card {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  div.promo {
+    width: 95%;
+  }
+
+  div.promo div.card-header {
+    height: 45px;
+  }
+
+  div.promo div.card-header p {
+    font-size: 14px;
+  }
+
+  div.promo div.card-header button {
+    font-size: 14px;
+  }
+
+  div.promo div.bottom {
+    padding: 10px;
+  }
+
+  div.promo div.bottom div.card div.card-body p.card-text {
+    font-size: 14px;
+  }
+
+  div.promo div.bottom div.card div.card-body p.oldPrice {
+    font-size: 13px;
+  }
+
+  div.promo div.bottom div.card div.card-body p.newPrice {
+    font-size: 14px;
+  }
+}
+
+/* product wrapper */
+@media screen and (max-width: 1150px) {
+  div.product-wrapper {
+    width: 900px;
+  }
+
+  div.product-wrapper div.main-product div.item-product {
+    margin: 0 12.5px;
+    margin-bottom: 20px;
+    height: 305px;
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  div.product-wrapper {
+    width: 650px;
+  }
+
+  div.product-wrapper div.main-product div.item-product {
+    margin: 0 10px;
+    margin-bottom: 20px;
+    height: 325px;
+    width: 305px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.product-wrapper {
+    width: 97%;
+  }
+
+  div.product-wrapper div.main-product {
+    display: block;
+  }
+
+  div.product-wrapper button.more {
+    font-size: 13px;
+    padding: 10px 40px;
+  }
+
+  div.product-wrapper div.main-product div.item-product {
+    float: left;
+    margin: 0 2%;
+    margin-bottom: 20px;
+    height: 310px;
+    width: 46%;
+  }
+
+  div.product-wrapper div.main-product div.item-product div.stars-rating i {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  div.product-wrapper div.main-product div.item-product {
+    height: 280px;
+  }
+
+  div.product-wrapper
+    div.main-product
+    div.item-product
+    div.card-body
+    p.card-text {
+    font-size: 14px;
+  }
+
+  div.product-wrapper div.main-product div.item-product div.card-body p.price {
+    font-size: 13px;
+  }
+
+  div.product-wrapper
+    div.main-product
+    div.item-product
+    div.card-body
+    p.oldPrice {
+    font-size: 12px;
+  }
+
+  div.product-wrapper
+    div.main-product
+    div.item-product
+    div.card-body
+    p.newPrice {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  div.product-wrapper div.main-product div.item-product {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div.product-wrapper div.main-product div.item-product {
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  div.product-wrapper div.main-product div.item-product {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  div.product-wrapper {
+    width: 90%;
+  }
+  div.product-wrapper div.main-product div.item-product {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+  }
+}
