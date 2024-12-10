@@ -1,1 +1,0 @@
-cuma js buat sampah
